@@ -23,8 +23,15 @@ Instructor haven’t found any Errata in this Section, If you find one plz feel 
 
 Instructor haven’t found any Errata in this Section, If you find one plz feel free to make a PR. 
 
+4.) Errata in **Project: House Price Predictor**
 
-4.) Errata for further sections can be added here. 
+TimeStamp : 1:26:18 :-
+in "from sklearn.datasets import load_boston"
+load_boston is no longer supported.
+Replace all entries of "load_boston" with "fetch_california_housing" which will give different output.
+load_boston can also be used if loaded directly from url : "http://lib.stat.cmu.edu/datasets/boston" (without the inverted commas) but various other changes will also be required.
+
+5.) Errata for further sections can be added here. 
 
 Some Points while adding Errata:-  
 
